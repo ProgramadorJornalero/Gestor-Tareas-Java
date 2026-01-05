@@ -43,7 +43,7 @@ public class Tarea {
 
     @Override
     public String toString() {
-        String estado = check ? "[✓]" : "[ ]";
+        String estado = check ? "[X]" : "[ ]";
         return estado + " " + title.toUpperCase() + "\n      Descripcion: " + description;
     }
 }
